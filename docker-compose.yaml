@@ -2,7 +2,11 @@ name: "phpapp"
 
 services:
   server:
-    
+    image: 'nginx:stable-alpine'
+    ports:
+      - '8000:80'
+    volumes:
+      - ./nginx/nginx.conf:etc/nginx/conf:ro
   # php:
   # mysql:
   # compose:
