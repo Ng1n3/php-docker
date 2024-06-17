@@ -1,0 +1,10 @@
+name: "phpapp"
+
+services:
+  server:
+    
+  # php:
+  # mysql:
+  # compose:
+  # artisan:
+  # npm:
